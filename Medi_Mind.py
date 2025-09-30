@@ -50,7 +50,7 @@ else:
 # Init LLM
 llm = None
 try:
-    llm = ChatGoogleGenerativeAI(model="models/gemini-1.5-flash-latest", temperature=0.2)
+    llm = ChatGoogleGenerativeAI(model="models/gemini-2.5-pro", temperature=0.2)
 except Exception as e:
     st.error("❌ Gemini LLM not initialized. Check your API key and installed packages.")
     st.caption(str(e))
