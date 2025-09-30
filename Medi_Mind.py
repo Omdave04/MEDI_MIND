@@ -137,3 +137,4 @@ with st.sidebar:
         with open("mental_health_Document.pdf", "wb") as f:
             f.write(uploaded_pdf.read())
         st.success("Uploaded PDF saved as 'mental_health_Document.pdf'. Restart the app to re-index.")
+
