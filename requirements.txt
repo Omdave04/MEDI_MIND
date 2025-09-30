@@ -1,0 +1,12 @@
+streamlit>=1.25
+joblib
+pandas
+PyPDF2
+langchain-core
+langchain-google-genai
+langchain-community
+langgraph
+faiss-cpu
+sentence-transformers
+transformers
+scikit-learn
